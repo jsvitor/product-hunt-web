@@ -1,13 +1,10 @@
 import React from 'react';
+import './styles.css';
 
+// stateless components, creating components with functions.
+// A way to make components with less verbose.
 const Header = () => (
-  <h1>Hello World</h1>
-); // stateless components, creating components with functions.
+  <header id="main-header">JSHunt</header>
+); 
 
-/* 
-// is the same to say:
-class Header extends Component {
-  render() {
-    return <h1>Hello</h1>
-  }
-} */
+export default Header;
