@@ -1,7 +1,9 @@
 import React from 'react';
-import Header from './components/Header';
+import api from './services/api';
 
 import './global.css';
+
+import Header from './components/Header';
 
 const App = () => (
     <div className="App">
@@ -9,10 +11,5 @@ const App = () => (
     </div>
 )
 
-/*
-function App() {
-  return (
-);
-} */
 
 export default App;
